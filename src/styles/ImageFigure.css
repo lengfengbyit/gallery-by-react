@@ -1,0 +1,41 @@
+.img-figure{
+  background-color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 360px;
+  margin: 0;
+  padding: 40px;
+  position: absolute;
+  transform-origin: 0 50% 0;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out 0s, left 0.6s ease-in-out 0s, top 0.6s ease-in-out 0s;
+  width: 320px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+figcaption .img-title {
+  color: #a7a0a2;
+  font-size: 16px;
+  margin: 20px 0 0;
+}
+
+figcaption .img-back {
+  backface-visibility: hidden;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #a7a0a2;
+  font-size: 22px;
+  height: 100%;
+  left: 0;
+  line-height: 1.25;
+  overflow: auto;
+  padding: 50px 40px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  transform: rotateY(180deg) translateZ(1px);
+  width: 100%;
+}
